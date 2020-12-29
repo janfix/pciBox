@@ -35,9 +35,9 @@ return array(
         'taoQtiItem' => '>=17.1.0',
         'qtiItemPci' => '>=4.6.5'
     ),
-    'managementRole' => 'http://www.tao.lu/Ontologies/generis.rdf#pciBoxManager',
+    'managementRole' => 'http://www.tao.lu/Ontologies/generis.rdf#pciWiquidManager',
     'acl' => array(
-        array('grant', 'http://www.tao.lu/Ontologies/generis.rdf#pciBoxManager', array('ext'=>'pciBox')),
+        array('grant', 'http://www.tao.lu/Ontologies/generis.rdf#pciWiquidManager', array('ext'=>'pciBox')),
     ),
     'install' => array(
         'php'	=> array(
